@@ -9,7 +9,7 @@ ZOUUUマイページ
 
 ## ③DEMO
 
-デプロイしている場合はURLを記入（任意）
+https://zouuu.sakura.ne.jp/php01/index.php
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
