@@ -1,0 +1,118 @@
+/* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+    width: 400px; /* 必要に応じてサイズを調整 */
+    height: auto;
+    border-radius: 50%; /* 円形にする場合 */
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #ffffff;
+  padding: 10px;
+  margin: 20px -20px; /* コンテナのパディングに合わせる */
+  background-color: #0c344e; /* お好みの背景色 */
+  font-weight: bolder; /* フォントの太さを細くする */
+}
+
+h2, h3 {
+  color: #333;
+  padding: 10px;
+  margin: 20px -20px; /* コンテナのパディングに合わせる */
+  background-color: #e9ecef; /* お好みの背景色 */
+  font-weight: bolder; /* フォントの太さを細くする */
+}
+
+h1 {
+  border-radius: 8px 8px 0 0; /* 角を丸くする */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-top: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  white-space: nowrap; /* 折り返しを防ぐ */
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.form-group.center {
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #0c344e;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.submit-btn:hover {
+  background-color: #0c344e9a;
+}
+
+.pb-rating-graph__label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
